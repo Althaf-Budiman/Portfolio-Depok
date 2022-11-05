@@ -56,7 +56,6 @@ nav a:hover {
 
 #about p {
    margin-top: 20px;
-   line-height: 25px;
 }
 /* Akhir Style About */
 
@@ -88,5 +87,9 @@ footer ul {
 }
 /* Akhir style footer */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
+   #project img,
+   #certificate img {
+      width: 250px;
+   }
 }
